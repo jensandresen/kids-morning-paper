@@ -1,0 +1,12 @@
+version: "3"
+services:
+  skole-skema-service:
+    image: node:alpine
+    volumes:
+      - ${PWD}/skole-skema-service/webapi.js:/app/webapi.js
+      - ${PWD}/skole-skema-service/data.json:/data/data.json
+    environment:
+      - "PORT=3000"
+    ports:
+      - "17000:3000"
+    command: "node /app/webapi.js"

@@ -1,0 +1,90 @@
+{
+    "id": "clara",
+    "lastUpdated": "2020-09-25T08:38:34.040Z",
+    "events": [
+        {
+            "id": "2371e364-fc6e-45b7-a786-c4511676b828",
+            "start": "2020-09-25T06:00:00.000Z",
+            "end": "2020-09-25T06:45:00.000Z",
+            "title": "ENG, 4a",
+            "description": "<p>Jeg skal flytte, og er derfor ikke på skolen i dag. Der kommer vikar.</p><p>Arbejd med guided tour, som blev introduceret i fredags. Husk, I skal bruge en telefon i hver gruppe.</p><p>Gå til dette link:</p><p>https://engelsk4-6.gyldendal.dk/topics/4th_grade/take-it-outside/kapitler/tour-guides-preparing-the-tour</p>"
+        },
+        {
+            "id": "0e23eebb-f145-4469-a68c-e4f98354fe89",
+            "start": "2020-09-25T06:45:00.000Z",
+            "end": "2020-09-25T07:30:00.000Z",
+            "title": "ENG, 4a",
+            "description": ""
+        },
+        {
+            "id": "08bfacb8-43de-438b-a991-cd7928f08acd",
+            "start": "2020-09-25T07:30:00.000Z",
+            "end": "2020-09-25T07:50:00.000Z",
+            "title": "10 pause , Tilsyn 4.årg",
+            "description": ""
+        },
+        {
+            "id": "2705d926-44a9-42b7-b685-184254cb6956",
+            "start": "2020-09-25T07:50:00.000Z",
+            "end": "2020-09-25T08:35:00.000Z",
+            "title": "N/T, 4a",
+            "description": "<p>Vi gennemgår løvtræer og nåletræer på tavlen, som I læste om sidste gang.</p><p>Vi gennemgår nedbrydere.</p>"
+        },
+        {
+            "id": "02414a97-91d4-419c-ab30-d12405a94720",
+            "start": "2020-09-25T08:35:00.000Z",
+            "end": "2020-09-25T09:20:00.000Z",
+            "title": "N/T, 4a",
+            "description": ""
+        },
+        {
+            "id": "1bd34389-4df7-41b0-96ce-b90f6247a978",
+            "start": "2020-09-25T09:20:00.000Z",
+            "end": "2020-09-25T09:40:00.000Z",
+            "title": "spisepause 4C, Tilsyn 4.årg",
+            "description": ""
+        },
+        {
+            "id": "4d70aedc-bdc3-4802-8672-73dcfcfcffc4",
+            "start": "2020-09-25T09:20:00.000Z",
+            "end": "2020-09-25T09:40:00.000Z",
+            "title": "spisepause 4B, Tilsyn 4.årg",
+            "description": ""
+        },
+        {
+            "id": "5a5c8e67-7531-4057-a7b5-f32bf708245b",
+            "start": "2020-09-25T09:20:00.000Z",
+            "end": "2020-09-25T09:40:00.000Z",
+            "title": "spisepause 4A, Tilsyn 4.årg",
+            "description": ""
+        },
+        {
+            "id": "8b8a640f-6f81-4ad1-afab-259329e14d1a",
+            "start": "2020-09-25T09:40:00.000Z",
+            "end": "2020-09-25T10:00:00.000Z",
+            "title": "12 pause, Tilsyn 4.årg",
+            "description": ""
+        },
+        {
+            "id": "93b47477-97b7-4328-900f-d5e24e4578dd",
+            "start": "2020-09-25T10:00:00.000Z",
+            "end": "2020-09-25T10:45:00.000Z",
+            "title": "MUS, 4a",
+            "description": ""
+        },
+        {
+            "id": "c1c0003b-7acb-45eb-89d2-30ad107015ae",
+            "start": "2020-09-25T10:45:00.000Z",
+            "end": "2020-09-25T11:30:00.000Z",
+            "title": "MUS, 4a",
+            "description": ""
+        },
+        {
+            "id": "12fcab67-e5b3-4397-a18a-caa02b6f6ac6",
+            "start": "2020-09-25T11:40:00.000Z",
+            "end": "2020-09-25T12:25:00.000Z",
+            "title": "MAT, 4a",
+            "description": ""
+        }
+    ]
+}
