@@ -1,5 +1,6 @@
-import React, { createContext, useEffect, useState } from "react";
+import React, { createContext, useEffect, useState, useRef } from "react";
 import moment from "moment";
+import NoSleep from "nosleep";
 
 const appContext = createContext(null);
 
@@ -17,6 +18,8 @@ function AppContextProvider({ children }) {
   const [charlieEvents, setCharlieEvents] = useState([]);
   const [time, setTime] = useState(new Date("2000-01-01"));
   const [lastUpdated, setLastUpdated] = useState(new Date("2000-01-01"));
+
+  const noSleep = useRef(new NoSleep());
 
   useEffect(() => {
     setTime(new Date());
