@@ -1,0 +1,6 @@
+version: 1
+configuration:
+  commands:
+    setup: make setup
+    run: make run
+    teardown: make teardown
