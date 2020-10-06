@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import styled from "@emotion/styled";
 import moment from "moment";
 import colors from "./colors";
-import dateUtils from "./date-utils";
+import { overlaps, sortByStart } from "./date-utils";
 
 function Header({ name, avatarUrl, height }) {
   const Wrapper = styled.div`
@@ -57,10 +57,10 @@ function EventList({ events, hourHeight, start, totalWidth }) {
     return { top, height };
   };
 
-  const items = dateUtils.sortByStart(events || []).map((event) => {
+  const items = sortByStart(events || []).map((event) => {
     const { top, height } = calculatePlacementOf(event);
 
-    const overlappingEvents = dateUtils.overlaps(event, events);
+    const overlappingEvents = overlaps(event, events);
 
     const index = overlappingEvents.findIndex((value) => value.id == event.id);
 
@@ -177,8 +177,7 @@ export default function Schedule({ name, events, height }) {
     <Wrapper>
       <Header
         name={name}
-        // avatarUrl={`/img/${name}-avatar.png`}
-        avatarUrl={`http://lorempixel.com/200/200/people?${new Date().getTime()}`}
+        avatarUrl={`/img/${name.toLowerCase()}-avatar.png`}
         height={headerHeight}
       />
       <Content ref={contentElement}>

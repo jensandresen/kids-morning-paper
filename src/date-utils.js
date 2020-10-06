@@ -1,5 +1,3 @@
-const moment = require("moment");
-
 const isAtSameTime = (e1, e2) =>
   e1.start.getTime() == e2.start.getTime() &&
   e1.end.getTime() == e2.end.getTime();
@@ -27,13 +25,13 @@ const isJustBefore = (e, other) => {
   );
 };
 
-exports.sortByStart = function sortByStart(events) {
+export function sortByStart(events) {
   return [...events].sort((a, b) => {
     return a.start.getTime() - b.start.getTime();
   });
-};
+}
 
-exports.overlaps = function overlaps(event, otherEvents) {
+export function overlaps(event, otherEvents) {
   return otherEvents.filter((other) => {
     if (isJustBefore(event, other) || isJustAfter(event, other)) {
       return false;
@@ -49,6 +47,4 @@ exports.overlaps = function overlaps(event, otherEvents) {
       hasEndWithinOther(other, event)
     );
   });
-};
-
-export default {};
+}
