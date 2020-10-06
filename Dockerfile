@@ -1,5 +1,6 @@
 FROM node as builder
 WORKDIR /app-source
+RUN npm install --save-dev node-sass
 COPY package*.json ./
 RUN npm install
 COPY public ./public
